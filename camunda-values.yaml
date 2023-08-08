@@ -1,0 +1,24 @@
+zeebe: 
+  clusterSize: 1
+  partitionCount: 1
+  replicationFactor: 1
+  pvcSize: 4Gi
+  cpu: 1
+  memory: 512Mi
+
+zeebe-gateway:
+  replicas: 1
+  cpu: 1
+  memory: 512Mi
+
+elasticsearch:
+  replicas: 1
+  cpu: 2
+
+limits:
+  cpu: 4
+  memory: 512Mi
+
+requests:
+  cpu: 4
+  memory: 512Mi
