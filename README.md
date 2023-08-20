@@ -1,3 +1,3 @@
 # minikube
 
-This is my minikube setup.
+This is my minikube cluster setup.
