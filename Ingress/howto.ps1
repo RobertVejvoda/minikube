@@ -44,7 +44,7 @@ sudo code /private/etc/hosts
 #      127.0.0.1    hello2.internal
         
 ping hello1.internal
-# PING test1.com (127.0.0.1): 56 data bytes
+# PING hello1.internal (127.0.0.1): 56 data bytes
 
 curl hello1.internal
  
@@ -52,7 +52,7 @@ curl hello1.internal
 # Version: 1.0.0
 # Hostname: web-84fb9498c7-w6bkc
 
-curl hello2.com
+curl hello2.internal
 # Hello, world!
 # Version: 2.0.0
 # Hostname: web2-7df4dcf77b-66g5b
